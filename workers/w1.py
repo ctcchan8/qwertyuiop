@@ -5,6 +5,8 @@ def run(worker: WorkerController):
     worker.init()
     worker.use_clock(frequency=100)
     sm = worker.use_serial_manager()
+    
+    # Change this!
     sm.whitelist.append(PortInfo(serial_number="5513132373735171A0B1", baudrate=115200))
     sm.whitelist.append(PortInfo(serial_number="7513131383235170F071", baudrate=115200))
 

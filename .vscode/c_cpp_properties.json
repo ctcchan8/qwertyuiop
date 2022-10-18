@@ -22,6 +22,8 @@
                 "/home/charles/.arduino15/packages/arduino/hardware/sam/1.6.12/system/CMSIS/Device/ATMEL/",
                 "/home/charles/.arduino15/packages/arduino/hardware/sam/1.6.12/cores/arduino",
                 "/home/charles/.arduino15/packages/arduino/hardware/sam/1.6.12/variants/arduino_due_x",
+                "/home/charles/Arduino/libraries/Task_Scheduler/src",
+                "/home/charles/Arduino/libraries/due_can",
                 "/home/charles/Arduino/libraries/ArxContainer",
                 "/home/charles/Arduino/libraries/ArduinoJson/src",
                 "/home/charles/Arduino/libraries/Packetizer",
@@ -30,11 +32,7 @@
                 "/home/charles/.arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/c++/4.8.3/backward",
                 "/home/charles/.arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/lib/gcc/arm-none-eabi/4.8.3/include",
                 "/home/charles/.arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/lib/gcc/arm-none-eabi/4.8.3/include-fixed",
-                "/home/charles/.arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include",
-                "/home/charles/Arduino/libraries/due_can",
-                "/home/charles/Arduino/libraries/Task_Scheduler/src",
-                "/home/charles/Arduino/libraries/MsgPack",
-                "/home/charles/Arduino/libraries/ESP32Servo/src"
+                "/home/charles/.arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include"
             ],
             "forcedInclude": [
                 "/home/charles/.arduino15/packages/arduino/hardware/sam/1.6.12/cores/arduino/Arduino.h"

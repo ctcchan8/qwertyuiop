@@ -67,8 +67,8 @@ DECLARE_WATCHER(JsonArray, carbase_output, "rc.o",
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
   pinMode(AIR_1A, OUTPUT);
-  pinMode(AIR_1A, OUTPUT);
-  pinMode(AIR_2B, OUTPUT);
+  pinMode(AIR_1B, OUTPUT);
+  pinMode(AIR_2A, OUTPUT);
   pinMode(AIR_2B, OUTPUT);
 
   START_WATCHER(carbase_setting);
@@ -101,7 +101,7 @@ void loop2() {  // Send sensors / encoders data
   StaticJsonDocument<128> carbase_feedback;
   carbase_feedback[0]  = group1_rm[0].unbound_tick;
   carbase_feedback[1]  = group1_rm[0].speed;
-  carbase_feedback[2]  = group1_rm[0].output;
+  carbase_feedback[2]  = group1_rm[0].output
 
   carbase_feedback[3]  = group1_rm[1].unbound_tick;
   carbase_feedback[4]  = group1_rm[1].speed;
